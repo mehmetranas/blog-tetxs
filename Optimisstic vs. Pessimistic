@@ -1,0 +1,1 @@
+Ossimistic yani hopeful ve Pessimistic yani hopeless. Bu iki kavram DOM yapısında yapılan değişiklerde sayfanın güncellenmesi zamanını belirler. Optimistic yöntemi önce sayfayı yeniler sonra Requestrin olumlu response döndrüp döndirmediğine bakar. Böylece kullnıcıya hızlı bir ön yüz sunulmuş olur. Pessimistic ise tam tersi yönde işler.

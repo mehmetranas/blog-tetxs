@@ -1,0 +1,7 @@
+-$>sudo service mongod start
+
+**To find mongo installation dir**
+-$>locate mongod.conf
+**To start mongo shell**
+>>Go to mongo installation dir<<
+-$>mongo

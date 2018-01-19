@@ -1,0 +1,2 @@
+Observeble sınıfı lazy loading prensibine göre çalışır. Promise ise eager loading gibi davranır. Observeble sınıfınfı kullnalırken çağırabildiğimiz map, catch, retry gibi methodlar sayesinde oldukça detaylı işlemelri lazy loading prensibine göre kullanarak optimizasyona sadık kalabiliriz. 
+İyi bir pattern olmasada observable bir nesne toPromise() methodu ile promise a dönüşebilir.

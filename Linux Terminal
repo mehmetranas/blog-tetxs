@@ -1,0 +1,3 @@
+**To Kill A Port**
+>sudo lsof -i tcp:{PORT NUM}
+>kill -9 {PID} 

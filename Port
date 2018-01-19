@@ -1,0 +1,2 @@
+Web service üzerinde birden çok programımız çalışıyor olabilir. (Nodejs, Email Servisi vs.) Peki web servise gelen bir request hangi servise/modüle gideceğini nasıl anlar?
+Tabi ki her programın requestleri dinlediği uniq bir port adresi olur. Bu port adresi sayesinde requestler adreslenmiş olur.

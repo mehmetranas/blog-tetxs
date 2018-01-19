@@ -1,0 +1,25 @@
+
+*** Get Info about installed packages ***
+
+npm view <package> version - returns the latest available version on the package.
+
+npm view <package> version - returns all available versions on the package.
+
+npm list --depth=0 - returns versions of all installed modules without dependencies.
+
+npm list - returns versions of all modules and dependencies.
+
+npm info YOUR_PACKAGE version
+
+npm list | grep <package name> and it worked great
+
+On windows run:
+
+npm list | find <package name>
+
+In PowerShell run:
+
+npm list | sls <package name>
+
+*** -- ***
+
