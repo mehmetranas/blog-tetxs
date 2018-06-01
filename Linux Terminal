@@ -1,3 +1,5 @@
 **To Kill A Port**
 >sudo lsof -i tcp:{PORT NUM}
 >kill -9 {PID} 
+**View domain ping adres**
+dig +recurse +trace www.example.com any
