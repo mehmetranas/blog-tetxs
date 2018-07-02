@@ -1,0 +1,7 @@
+git diff --stat --cached -- <directory_of_interest>
+and this, which shows unstaged changes:
+
+git diff --stat -- <directory_of_interest>
+or this which shows both:
+
+git diff --stat HEAD -- <directory_of_interest>

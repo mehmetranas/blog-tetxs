@@ -1,0 +1,13 @@
+1- get ssh .pem file from aws
+2- open inctance from terminal --> ssh -i my.pem userName@public_dns  // my user name was bitnami for wordpress
+3- generate new private key: sudo openssl genrsa -out /opt/bitnami/apache2/conf/server.key 2048
+4- create a cert: sudo openssl req -new -key /opt/bitnami/apache2/conf/server.key -out /opt/bitnami/apache2/conf/cert.csr
+5- open cert.csr: nano /opt/bitnami/apache2/conf/cert.csr
+6- copy key
+7- go to comodo free ssl for 90 days
+8-copy key and go on
+9-download crt file from email and copy it /opt/bitnami/apache2/conf dest
+10-go to /opt/bitnami/apache2/conf/bitnami/bitnami.conf and change SSLCertificateFile name to the my file name that i got from comodo
+11-restart server --> sudo /opt/bitnmai/ctlscripts.sh restart apache
+
+AND GO ON thats all...
